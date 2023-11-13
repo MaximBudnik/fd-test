@@ -13,4 +13,5 @@ spec:
         app: fdtest
     spec:
       containers:
-      - image: {{ $.Values.werf.image.fdtest }}
+      - name: fdtest
+        image: {{ $.Values.werf.image.fdtest }}
