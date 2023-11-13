@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: fd-test
+  template:
+    metadata:
+      labels:
+        app: fd-test
+    spec:
+      containers:
+      - image: {{ $.Values.werf.image.backend }}

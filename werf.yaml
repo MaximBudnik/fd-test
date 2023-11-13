@@ -1,6 +1,6 @@
-project: werf-first-app
+project: fd-test
 configVersion: 1
 
 ---
-image: fd-test-image
+image: fd-test
 dockerfile: Dockerfile
