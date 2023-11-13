@@ -14,3 +14,4 @@ spec:
     spec:
       containers:
       - image: {{ $.Values.werf.image.fdtest }}
+      - name: fdtest
