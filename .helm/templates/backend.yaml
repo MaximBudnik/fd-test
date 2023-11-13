@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fd-test
+  name: fdtest
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: fd-test
+      app: fdtest
   template:
     metadata:
       labels:
-        app: fd-test
+        app: fdtest
     spec:
       containers:
-      - image: {{ $.Values.werf.image.fd-test }}
+      - image: {{ $.Values.werf.image.fdtest }}

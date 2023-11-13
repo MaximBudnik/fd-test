@@ -1,6 +1,6 @@
-project: fd-test
+project: fdtest
 configVersion: 1
 
 ---
-image: fd-test
+image: fdtest
 dockerfile: Dockerfile
