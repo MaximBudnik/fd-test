@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: backend
+  name: fd-test
 spec:
   replicas: 2
   selector:
@@ -13,4 +13,4 @@ spec:
         app: fd-test
     spec:
       containers:
-      - image: {{ $.Values.werf.image.backend }}
+      - image: {{ $.Values.werf.image.fd-test }}
