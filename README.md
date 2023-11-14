@@ -22,7 +22,7 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)  
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/ba    dge.svg)](https://opencollective.c   om/nest#sponsor)-->          
          
-## Description     
+## Description             
         
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.     
       
