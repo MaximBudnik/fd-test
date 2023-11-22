@@ -19,7 +19,7 @@
     <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img. shields.io/badge/Support%20us-Open%20Collective-4   B883.svg" alt="Support us"></a>
   <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter    /follow/nestfra   mework.svg?style=social&label=Follow"></a>
 </p>    
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)  
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.co   m/nest#backer)  
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/ba    dge.svg)](https://opencollective.c   om/nest#sponsor)-->          
               
 ## Description                  
